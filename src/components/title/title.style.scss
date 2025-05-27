@@ -1,0 +1,29 @@
+@use '../../styles/breakpoints.scss' as *;
+
+
+/* GENERAL */
+.title__container {
+
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    width: 100%;
+
+}
+
+
+/* DESKTOP */
+@media (min-width: $phone-breakpoint) {
+    .title__container-pokeball {
+        width: 80px;
+    }
+
+    .title__container-title {
+        font-size: 3rem;
+    }
+}
